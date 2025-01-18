@@ -39,8 +39,8 @@ nltk.download('punkt_tab')
 """## Βήμα 1. Συλλογή δεδομένων"""
 
 # Εισαγωγή του API Key και του ονόματος χρήστη από το Kaggle (μέσω kaggle.json)
-os.environ["KAGGLE_KEY"] = 'mykey'
-os.environ["KAGGLE_USERNAME"] = 'myusername'
+os.environ["KAGGLE_KEY"] = 'f8d5210b1add9082c88d61aed904ccab'
+os.environ["KAGGLE_USERNAME"] = 'iaswnas'
 
 # Λήψη του dataset από το Kaggle
 !kaggle datasets download jrobischon/wikipedia-movie-plots
